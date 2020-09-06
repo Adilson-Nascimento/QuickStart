@@ -51,6 +51,10 @@ namespace QuickStart.Web
                 routes.MapRoute(
                     name: "default",
                     template: "{controller}/{action=Index}/{id?}");
+
+
+
+
             });
 
             app.UseSpa(spa =>
